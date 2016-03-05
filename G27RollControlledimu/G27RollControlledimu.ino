@@ -31,7 +31,7 @@ sensors_vec_t orientation;
 // int mappedValue;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   // Initialize the sensors.
   accel.begin();
   mag.begin();

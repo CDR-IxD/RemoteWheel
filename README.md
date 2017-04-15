@@ -6,7 +6,7 @@
 1. Install the latest Node.js package from h ttps://nodejs.org/en/
 2. Run a js test file (console.log(‘Hello World’) to verify node is properly installed
 3. use npm (node Package Manager) to install
-https://www.npmjs.com/package/logitech­g27
+https://www.npmjs.com/package/logitech-g27
 4. Run the test LED file to see if the communication between computer and the G27 Wheel is properly functioning.
 Checkpoint: node can now successfully read and write to the G27 wheel.
 5. use npm to install serial communication: npm install serialport

@@ -25,3 +25,7 @@ Checkpoint: node can now successfully read and write to the G27 wheel.
 
 1. Use Listports.js to find out which ports correspond to the IMU sensor and the LED output. 
 2. Run "g27pitchcontrolledv4.js" with the corresponding ports (IMU sensor port, LED output arduino)
+
+
+## Note for further development:
+The input from the seiralport is assumed to be an float representing the roll angle from -180 to 180. If alternative input device is used other than the arduino, then please map the angles from -180 to 0 to 180 (bottom to top to bottom)
